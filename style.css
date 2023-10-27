@@ -1,0 +1,107 @@
+.content {
+  margin-top: 54px;
+}
+.header {
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.left-title {
+  width: 80px;
+  color: #ffffff;
+  font-size: 17px;
+  font-family: 'Kanit', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+.right-title {
+  width: 180px;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+.quiz-body {
+  margin-top: 15px;
+  padding-bottom: 50px;
+}
+.option-block-container {
+  display: flex;
+  justify-content: space-between;
+  width: 300px; /* Adjust this as needed */
+ 
+  border-radius: 10px; /* Rounded corners for the container */
+  
+  padding: 10px;
+}
+.option-block {
+  flex: 1;
+  text-align: center;
+  background-color: #8b8585;
+  padding: 10px;
+  border-radius: 8px; /* Rounded corners for option blocks */
+  transition: background-color 0.3s; /* Smooth color change on hover */
+  cursor: pointer;
+  margin: 5px;
+}
+.result-question {
+  font-weight: bold;
+}
+.c-wrong {
+  margin-left: 20px;
+  color: #ff0000;
+}
+.c-correct {
+  margin-left: 20px;
+  color: green;
+}
+.last-row {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+.res-header {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+/* Style for the buttons with the "styled-button" class */
+.styled-button {
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding around the text */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Show pointer on hover */
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 10px; /* Margin between buttons */
+}
+
+.styled-button:hover {
+    background-color: #333; /* Change color on hover */
+}
+
+
+/* Apply to the HTML and body elements to ensure full coverage */
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden; /* Hide overflow content */
+}
+
+/* Apply to the image to make it cover the entire screen */
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Maintain aspect ratio and cover the entire area */
+  position: fixed; /* Fixed position to keep it in the background */
+  top: 0;
+  left: 0;
+  z-index: -1; /* Place it behind other content */
+}
+
+body {
+  background-color: rgb(161, 147, 147);
+}
+.header {
+  background-color: #333333;
+  color: white;
+}
